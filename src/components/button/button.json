@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_button_buttons",
+  "info": {
+    "displayName": "Button",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    },
+    "targetBlank": {
+      "type": "boolean",
+      "default": false
+    },
+    "iconName": {
+      "type": "string"
+    }
+  }
+}

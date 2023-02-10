@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_job_jobs",
+  "info": {
+    "displayName": "Job",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "location": {
+      "type": "string"
+    },
+    "aboutRole": {
+      "type": "richtext"
+    },
+    "jobType": {
+      "type": "string"
+    },
+    "jobLevel": {
+      "type": "richtext"
+    },
+    "button": {
+      "displayName": "Button",
+      "type": "component",
+      "repeatable": false,
+      "component": "button.button"
+    },
+    "content": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}

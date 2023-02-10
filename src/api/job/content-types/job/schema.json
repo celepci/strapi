@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "jobs",
+  "info": {
+    "singularName": "job",
+    "pluralName": "jobs",
+    "displayName": "Jobs",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Job": {
+      "displayName": "Job",
+      "type": "component",
+      "repeatable": true,
+      "component": "job.job"
+    }
+  }
+}

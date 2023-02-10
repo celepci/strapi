@@ -1,0 +1,40 @@
+{
+  "kind": "singleType",
+  "collectionName": "page_settings",
+  "info": {
+    "singularName": "page-setting",
+    "pluralName": "page-settings",
+    "displayName": "Page Settings",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "copyrightText": {
+      "type": "string"
+    },
+    "headerLogo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "footerLogo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "socialMedia": {
+      "type": "component",
+      "repeatable": true,
+      "component": "social-media.social-media"
+    }
+  }
+}
