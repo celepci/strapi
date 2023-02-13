@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_count_counts",
+  "info": {
+    "displayName": "Count",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "number": {
+      "type": "string"
+    },
+    "text": {
+      "type": "string"
+    }
+  }
+}
