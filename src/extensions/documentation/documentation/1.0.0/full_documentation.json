@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2023-02-14T12:25:32.517Z"
+    "x-generation-date": "2023-02-14T12:46:53.562Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -2123,6 +2123,12 @@
               "$ref": "#/components/schemas/HomeInfoItemHomeInfoItemComponent"
             }
           },
+          "careerSection": {
+            "$ref": "#/components/schemas/SectionSectionComponent"
+          },
+          "careerSectionButton": {
+            "$ref": "#/components/schemas/ButtonButtonComponent"
+          },
           "locale": {
             "type": "string"
           }
@@ -2168,6 +2174,12 @@
                   "$ref": "#/components/schemas/HomeInfoItemHomeInfoItemComponent"
                 }
               },
+              "careerSection": {
+                "$ref": "#/components/schemas/SectionSectionComponent"
+              },
+              "careerSectionButton": {
+                "$ref": "#/components/schemas/ButtonButtonComponent"
+              },
               "locale": {
                 "type": "string"
               }
@@ -2210,6 +2222,12 @@
             "items": {
               "$ref": "#/components/schemas/HomeInfoItemHomeInfoItemComponent"
             }
+          },
+          "careerSection": {
+            "$ref": "#/components/schemas/SectionSectionComponent"
+          },
+          "careerSectionButton": {
+            "$ref": "#/components/schemas/ButtonButtonComponent"
           },
           "createdAt": {
             "type": "string",
@@ -2560,6 +2578,12 @@
                 "items": {
                   "$ref": "#/components/schemas/HomeInfoItemHomeInfoItemComponent"
                 }
+              },
+              "careerSection": {
+                "$ref": "#/components/schemas/SectionSectionComponent"
+              },
+              "careerSectionButton": {
+                "$ref": "#/components/schemas/ButtonButtonComponent"
               },
               "createdAt": {
                 "type": "string",
@@ -2914,6 +2938,12 @@
                 "items": {
                   "$ref": "#/components/schemas/HomeInfoItemHomeInfoItemComponent"
                 }
+              },
+              "careerSection": {
+                "$ref": "#/components/schemas/SectionSectionComponent"
+              },
+              "careerSectionButton": {
+                "$ref": "#/components/schemas/ButtonButtonComponent"
               },
               "createdAt": {
                 "type": "string",
@@ -3300,6 +3330,12 @@
                   "$ref": "#/components/schemas/HomeInfoItemHomeInfoItemComponent"
                 }
               },
+              "careerSection": {
+                "$ref": "#/components/schemas/SectionSectionComponent"
+              },
+              "careerSectionButton": {
+                "$ref": "#/components/schemas/ButtonButtonComponent"
+              },
               "createdAt": {
                 "type": "string",
                 "format": "date-time"
@@ -3653,6 +3689,12 @@
                 "items": {
                   "$ref": "#/components/schemas/HomeInfoItemHomeInfoItemComponent"
                 }
+              },
+              "careerSection": {
+                "$ref": "#/components/schemas/SectionSectionComponent"
+              },
+              "careerSectionButton": {
+                "$ref": "#/components/schemas/ButtonButtonComponent"
               },
               "createdAt": {
                 "type": "string",
@@ -5337,6 +5379,40 @@
                 }
               }
             }
+          },
+          "count": {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "number"
+              },
+              "number": {
+                "type": "string"
+              },
+              "text": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      },
+      "ButtonButtonComponent": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "number"
+          },
+          "text": {
+            "type": "string"
+          },
+          "link": {
+            "type": "string"
+          },
+          "targetBlank": {
+            "type": "boolean"
+          },
+          "iconName": {
+            "type": "string"
           }
         }
       },
