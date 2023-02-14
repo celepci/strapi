@@ -9838,6 +9838,12 @@
               "$ref": "#/components/schemas/HomeInfoItemHomeInfoItemComponent"
             }
           },
+          "careerSection": {
+            "$ref": "#/components/schemas/SectionSectionComponent"
+          },
+          "careerSectionButton": {
+            "$ref": "#/components/schemas/ButtonButtonComponent"
+          },
           "locale": {
             "type": "string"
           }
@@ -9883,6 +9889,12 @@
                   "$ref": "#/components/schemas/HomeInfoItemHomeInfoItemComponent"
                 }
               },
+              "careerSection": {
+                "$ref": "#/components/schemas/SectionSectionComponent"
+              },
+              "careerSectionButton": {
+                "$ref": "#/components/schemas/ButtonButtonComponent"
+              },
               "locale": {
                 "type": "string"
               }
@@ -9925,6 +9937,12 @@
             "items": {
               "$ref": "#/components/schemas/HomeInfoItemHomeInfoItemComponent"
             }
+          },
+          "careerSection": {
+            "$ref": "#/components/schemas/SectionSectionComponent"
+          },
+          "careerSectionButton": {
+            "$ref": "#/components/schemas/ButtonButtonComponent"
           },
           "createdAt": {
             "type": "string",
@@ -10275,6 +10293,12 @@
                 "items": {
                   "$ref": "#/components/schemas/HomeInfoItemHomeInfoItemComponent"
                 }
+              },
+              "careerSection": {
+                "$ref": "#/components/schemas/SectionSectionComponent"
+              },
+              "careerSectionButton": {
+                "$ref": "#/components/schemas/ButtonButtonComponent"
               },
               "createdAt": {
                 "type": "string",
@@ -10629,6 +10653,12 @@
                 "items": {
                   "$ref": "#/components/schemas/HomeInfoItemHomeInfoItemComponent"
                 }
+              },
+              "careerSection": {
+                "$ref": "#/components/schemas/SectionSectionComponent"
+              },
+              "careerSectionButton": {
+                "$ref": "#/components/schemas/ButtonButtonComponent"
               },
               "createdAt": {
                 "type": "string",
@@ -11015,6 +11045,12 @@
                   "$ref": "#/components/schemas/HomeInfoItemHomeInfoItemComponent"
                 }
               },
+              "careerSection": {
+                "$ref": "#/components/schemas/SectionSectionComponent"
+              },
+              "careerSectionButton": {
+                "$ref": "#/components/schemas/ButtonButtonComponent"
+              },
               "createdAt": {
                 "type": "string",
                 "format": "date-time"
@@ -11368,6 +11404,12 @@
                 "items": {
                   "$ref": "#/components/schemas/HomeInfoItemHomeInfoItemComponent"
                 }
+              },
+              "careerSection": {
+                "$ref": "#/components/schemas/SectionSectionComponent"
+              },
+              "careerSectionButton": {
+                "$ref": "#/components/schemas/ButtonButtonComponent"
               },
               "createdAt": {
                 "type": "string",
@@ -13052,6 +13094,40 @@
                 }
               }
             }
+          },
+          "count": {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "number"
+              },
+              "number": {
+                "type": "string"
+              },
+              "text": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      },
+      "ButtonButtonComponent": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "number"
+          },
+          "text": {
+            "type": "string"
+          },
+          "link": {
+            "type": "string"
+          },
+          "targetBlank": {
+            "type": "boolean"
+          },
+          "iconName": {
+            "type": "string"
           }
         }
       },

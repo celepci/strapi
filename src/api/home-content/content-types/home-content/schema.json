@@ -81,6 +81,26 @@
         }
       },
       "component": "home-info-item.home-info-item"
+    },
+    "careerSection": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "section.section"
+    },
+    "careerSectionButton": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "button.button"
     }
   }
 }
