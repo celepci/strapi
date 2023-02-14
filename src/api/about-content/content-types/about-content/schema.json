@@ -22,6 +22,62 @@
       "type": "component",
       "repeatable": true,
       "component": "feature.feature"
+    },
+    "aboutInfoTitle": {
+      "type": "component",
+      "repeatable": false,
+      "component": "title.title"
+    },
+    "aboutInfoText": {
+      "type": "text"
+    },
+    "aboutInfoImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "countGroup": {
+      "type": "component",
+      "repeatable": true,
+      "component": "count-group.count-group"
+    },
+    "aboutVideoImage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "aboutVideo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "aboutBox": {
+      "type": "component",
+      "repeatable": true,
+      "component": "box.box"
+    },
+    "aboutSliderItem": {
+      "type": "component",
+      "repeatable": true,
+      "component": "about-slider-item.about-slider-item"
     }
   }
 }
