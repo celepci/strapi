@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_home_info_item_home_info_items",
+  "info": {
+    "displayName": "Home Info Item"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "text": {
+      "type": "richtext"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_section_sections",
+  "info": {
+    "displayName": "Section",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "title.title"
+    },
+    "SectionRight": {
+      "type": "component",
+      "repeatable": false,
+      "component": "button.button"
+    },
+    "text": {
+      "type": "string"
+    },
+    "sectionType": {
+      "type": "enumeration",
+      "enum": ["center", "twopart", "deneme"]
+    },
+    "toptitle": {
+      "type": "string"
+    },
+    "iconName": {
+      "type": "string"
+    }
+  }
+}
