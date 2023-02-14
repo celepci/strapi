@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_count_group_count_groups",
+  "info": {
+    "displayName": "Count Group",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "text"
+    },
+    "Count": {
+      "type": "component",
+      "repeatable": true,
+      "component": "count.count"
+    }
+  }
+}

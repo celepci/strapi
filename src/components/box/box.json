@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_box_boxes",
+  "info": {
+    "displayName": "Box"
+  },
+  "options": {},
+  "attributes": {
+    "toptitle": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "text": {
+      "type": "text"
+    }
+  }
+}

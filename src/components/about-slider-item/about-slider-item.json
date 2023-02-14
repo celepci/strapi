@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_about_slider_item_about_slider_items",
+  "info": {
+    "displayName": "About Slider Item"
+  },
+  "options": {},
+  "attributes": {
+    "date": {
+      "type": "string"
+    },
+    "title": {
+      "type": "text"
+    },
+    "text": {
+      "type": "text"
+    }
+  }
+}
