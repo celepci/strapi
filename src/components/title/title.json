@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_title_titles",
+  "info": {
+    "displayName": "Title",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "titleBlock1": {
+      "type": "string"
+    },
+    "titleBlock2": {
+      "type": "string"
+    },
+    "titleBlock1Color": {
+      "type": "component",
+      "repeatable": false,
+      "component": "color.color"
+    },
+    "titleBlock2Color": {
+      "type": "component",
+      "repeatable": false,
+      "component": "color.color"
+    }
+  }
+}
