@@ -1,0 +1,27 @@
+{
+  "kind": "singleType",
+  "collectionName": "solutions_contents",
+  "info": {
+    "singularName": "solutions-content",
+    "pluralName": "solutions-contents",
+    "displayName": "Solutions Settings",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "toptitle": {
+      "type": "string"
+    },
+    "title": {
+      "type": "text"
+    },
+    "servicesItem": {
+      "type": "component",
+      "repeatable": true,
+      "component": "service.service"
+    }
+  }
+}

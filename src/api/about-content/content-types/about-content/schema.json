@@ -10,26 +10,55 @@
   "options": {
     "draftAndPublish": true
   },
-  "pluginOptions": {},
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
   "attributes": {
     "title": {
-      "type": "string"
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "text": {
-      "type": "text"
+      "type": "text",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "features": {
       "type": "component",
       "repeatable": true,
-      "component": "feature.feature"
+      "component": "feature.feature",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "aboutInfoTitle": {
       "type": "component",
       "repeatable": false,
-      "component": "title.title"
+      "component": "title.title",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "aboutInfoText": {
-      "type": "text"
+      "type": "text",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "aboutInfoImage": {
       "type": "media",
@@ -40,12 +69,22 @@
         "files",
         "videos",
         "audios"
-      ]
+      ],
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "countGroup": {
       "type": "component",
       "repeatable": true,
-      "component": "count-group.count-group"
+      "component": "count-group.count-group",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "aboutVideoImage": {
       "type": "media",
@@ -56,7 +95,12 @@
         "files",
         "videos",
         "audios"
-      ]
+      ],
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "aboutVideo": {
       "type": "media",
@@ -67,17 +111,32 @@
         "files",
         "videos",
         "audios"
-      ]
+      ],
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "aboutBox": {
       "type": "component",
       "repeatable": true,
-      "component": "box.box"
+      "component": "box.box",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "aboutSliderItem": {
       "type": "component",
       "repeatable": true,
-      "component": "about-slider-item.about-slider-item"
+      "component": "about-slider-item.about-slider-item",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     }
   }
 }

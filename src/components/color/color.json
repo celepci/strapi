@@ -1,7 +1,8 @@
 {
   "collectionName": "components_color_colors",
   "info": {
-    "displayName": "Color"
+    "displayName": "Color",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -11,7 +12,8 @@
         "red",
         "white",
         "pink",
-        "black"
+        "black",
+        "gray"
       ]
     }
   }

@@ -1,5 +1,5 @@
 {
-  "/about-content": {
+  "/solutions-content": {
     "get": {
       "responses": {
         "200": {
@@ -7,7 +7,7 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/AboutContentListResponse"
+                "$ref": "#/components/schemas/SolutionsContentListResponse"
               }
             }
           }
@@ -64,7 +64,7 @@
         }
       },
       "tags": [
-        "About-content"
+        "Solutions-content"
       ],
       "parameters": [
         {
@@ -169,7 +169,7 @@
           }
         }
       ],
-      "operationId": "get/about-content"
+      "operationId": "get/solutions-content"
     },
     "put": {
       "responses": {
@@ -178,7 +178,7 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/AboutContentResponse"
+                "$ref": "#/components/schemas/SolutionsContentResponse"
               }
             }
           }
@@ -235,16 +235,16 @@
         }
       },
       "tags": [
-        "About-content"
+        "Solutions-content"
       ],
       "parameters": [],
-      "operationId": "put/about-content",
+      "operationId": "put/solutions-content",
       "requestBody": {
         "required": true,
         "content": {
           "application/json": {
             "schema": {
-              "$ref": "#/components/schemas/AboutContentRequest"
+              "$ref": "#/components/schemas/SolutionsContentRequest"
             }
           }
         }
@@ -315,91 +315,10 @@
         }
       },
       "tags": [
-        "About-content"
+        "Solutions-content"
       ],
       "parameters": [],
-      "operationId": "delete/about-content"
-    }
-  },
-  "/about-content/localizations": {
-    "post": {
-      "responses": {
-        "200": {
-          "description": "OK",
-          "content": {
-            "application/json": {
-              "schema": {
-                "$ref": "#/components/schemas/AboutContentLocalizationResponse"
-              }
-            }
-          }
-        },
-        "400": {
-          "description": "Bad Request",
-          "content": {
-            "application/json": {
-              "schema": {
-                "$ref": "#/components/schemas/Error"
-              }
-            }
-          }
-        },
-        "401": {
-          "description": "Unauthorized",
-          "content": {
-            "application/json": {
-              "schema": {
-                "$ref": "#/components/schemas/Error"
-              }
-            }
-          }
-        },
-        "403": {
-          "description": "Forbidden",
-          "content": {
-            "application/json": {
-              "schema": {
-                "$ref": "#/components/schemas/Error"
-              }
-            }
-          }
-        },
-        "404": {
-          "description": "Not Found",
-          "content": {
-            "application/json": {
-              "schema": {
-                "$ref": "#/components/schemas/Error"
-              }
-            }
-          }
-        },
-        "500": {
-          "description": "Internal Server Error",
-          "content": {
-            "application/json": {
-              "schema": {
-                "$ref": "#/components/schemas/Error"
-              }
-            }
-          }
-        }
-      },
-      "tags": [
-        "About-content"
-      ],
-      "parameters": [],
-      "operationId": "post/about-content/localizations",
-      "requestBody": {
-        "required": true,
-        "content": {
-          "application/json": {
-            "schema": {
-              "$ref": "#/components/schemas/AboutContentLocalizationRequest"
-            }
-          }
-        }
-      }
+      "operationId": "delete/solutions-content"
     }
   }
 }
