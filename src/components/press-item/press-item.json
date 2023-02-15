@@ -1,0 +1,29 @@
+{
+  "collectionName": "components_press_item_press_items",
+  "info": {
+    "displayName": "Press Item"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "buttonLink": {
+      "type": "text"
+    },
+    "buttonText": {
+      "type": "text",
+      "default": "Download"
+    }
+  }
+}

@@ -1,10 +1,10 @@
 {
   "kind": "singleType",
-  "collectionName": "page_settings",
+  "collectionName": "general_settings",
   "info": {
-    "singularName": "page-setting",
-    "pluralName": "page-settings",
-    "displayName": "Page Settings",
+    "singularName": "general-setting",
+    "pluralName": "general-settings",
+    "displayName": "General Settings",
     "description": ""
   },
   "options": {

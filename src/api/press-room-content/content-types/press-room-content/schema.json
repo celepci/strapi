@@ -1,0 +1,23 @@
+{
+  "kind": "singleType",
+  "collectionName": "press_room_contents",
+  "info": {
+    "singularName": "press-room-content",
+    "pluralName": "press-room-contents",
+    "displayName": "Press Room Settings"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "pressItems": {
+      "type": "component",
+      "repeatable": true,
+      "component": "press-item.press-item"
+    }
+  }
+}
