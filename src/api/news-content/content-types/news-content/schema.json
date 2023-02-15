@@ -1,0 +1,18 @@
+{
+  "kind": "singleType",
+  "collectionName": "news_contents",
+  "info": {
+    "singularName": "news-content",
+    "pluralName": "news-contents",
+    "displayName": "News Settings"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "moreButtonText": {
+      "type": "string"
+    }
+  }
+}

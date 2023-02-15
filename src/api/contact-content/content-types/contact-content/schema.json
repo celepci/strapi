@@ -1,0 +1,58 @@
+{
+  "kind": "singleType",
+  "collectionName": "contact_contents",
+  "info": {
+    "singularName": "contact-content",
+    "pluralName": "contact-contents",
+    "displayName": "Contact Settings",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "toptitle": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "title": {
+      "type": "component",
+      "repeatable": false,
+      "component": "title.title",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "locations": {
+      "type": "component",
+      "repeatable": true,
+      "component": "office-location.office-location",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "contactInfoItems": {
+      "type": "component",
+      "repeatable": true,
+      "component": "contact-info-item.contact-info-item",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    }
+  }
+}

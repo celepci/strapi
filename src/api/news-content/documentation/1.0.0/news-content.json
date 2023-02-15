@@ -1,5 +1,5 @@
 {
-  "/page-setting": {
+  "/news-content": {
     "get": {
       "responses": {
         "200": {
@@ -7,7 +7,7 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/PageSettingListResponse"
+                "$ref": "#/components/schemas/NewsContentListResponse"
               }
             }
           }
@@ -64,7 +64,7 @@
         }
       },
       "tags": [
-        "Page-setting"
+        "News-content"
       ],
       "parameters": [
         {
@@ -169,7 +169,7 @@
           }
         }
       ],
-      "operationId": "get/page-setting"
+      "operationId": "get/news-content"
     },
     "put": {
       "responses": {
@@ -178,7 +178,7 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/PageSettingResponse"
+                "$ref": "#/components/schemas/NewsContentResponse"
               }
             }
           }
@@ -235,16 +235,16 @@
         }
       },
       "tags": [
-        "Page-setting"
+        "News-content"
       ],
       "parameters": [],
-      "operationId": "put/page-setting",
+      "operationId": "put/news-content",
       "requestBody": {
         "required": true,
         "content": {
           "application/json": {
             "schema": {
-              "$ref": "#/components/schemas/PageSettingRequest"
+              "$ref": "#/components/schemas/NewsContentRequest"
             }
           }
         }
@@ -315,10 +315,10 @@
         }
       },
       "tags": [
-        "Page-setting"
+        "News-content"
       ],
       "parameters": [],
-      "operationId": "delete/page-setting"
+      "operationId": "delete/news-content"
     }
   }
 }
