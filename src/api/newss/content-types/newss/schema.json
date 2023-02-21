@@ -16,26 +16,41 @@
     }
   },
   "attributes": {
-    "News": {
-      "type": "component",
-      "repeatable": false,
-      "component": "news.news",
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
+    "title": {
+      "type": "string"
     },
-    "similarNews": {
+    "spotText": {
+      "type": "text"
+    },
+    "date": {
+      "type": "date"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "isSpotNews": {
+      "type": "boolean",
+      "default": false
+    },
+    "isShowHomepage": {
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
       },
-      "type": "dynamiczone",
-      "components": [
-        "news.news"
-      ]
+      "type": "boolean",
+      "default": false
     }
   }
 }

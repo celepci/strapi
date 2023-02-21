@@ -12,11 +12,30 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "Job": {
-      "displayName": "Job",
-      "type": "component",
-      "repeatable": true,
-      "component": "job.job"
+    "title": {
+      "type": "string"
+    },
+    "location": {
+      "type": "string"
+    },
+    "aboutRole": {
+      "type": "richtext"
+    },
+    "jobType": {
+      "type": "string"
+    },
+    "content": {
+      "type": "richtext",
+      "required": true
+    },
+    "jobLevel": {
+      "type": "string"
+    },
+    "applyButtonText": {
+      "type": "string"
+    },
+    "applyButtonLink": {
+      "type": "string"
     }
   }
 }

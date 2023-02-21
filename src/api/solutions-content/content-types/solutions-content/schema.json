@@ -17,11 +17,6 @@
     },
     "title": {
       "type": "text"
-    },
-    "servicesItem": {
-      "type": "component",
-      "repeatable": true,
-      "component": "service.service"
     }
   }
 }

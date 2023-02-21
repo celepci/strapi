@@ -11,16 +11,6 @@
     },
     "titleBlock2": {
       "type": "string"
-    },
-    "titleBlock1Color": {
-      "type": "component",
-      "repeatable": false,
-      "component": "color.color"
-    },
-    "titleBlock2Color": {
-      "type": "component",
-      "repeatable": false,
-      "component": "color.color"
     }
   }
 }

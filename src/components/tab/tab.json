@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_tab_tabs",
+  "info": {
+    "displayName": "Tab",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "tabTitle": {
+      "type": "text"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "tabID": {
+      "type": "string"
+    },
+    "titleBlock1": {
+      "type": "text"
+    },
+    "titleBlock2": {
+      "type": "text"
+    }
+  }
+}

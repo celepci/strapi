@@ -16,21 +16,13 @@
     }
   },
   "attributes": {
-    "title": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "type": "string"
-    },
     "text": {
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
       },
-      "type": "string"
+      "type": "text"
     },
     "services": {
       "type": "component",
@@ -41,26 +33,6 @@
         }
       },
       "component": "section.section"
-    },
-    "serviceItems": {
-      "type": "component",
-      "repeatable": true,
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "component": "service.service"
-    },
-    "newsSection": {
-      "type": "component",
-      "repeatable": false,
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "component": "service.service"
     },
     "homeInfoSection": {
       "type": "component",
@@ -101,6 +73,14 @@
         }
       },
       "component": "button.button"
+    },
+    "title": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "text"
     }
   }
 }

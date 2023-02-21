@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_tab_group_tab_groups",
+  "info": {
+    "displayName": "Tab Group"
+  },
+  "options": {},
+  "attributes": {
+    "tab": {
+      "type": "component",
+      "repeatable": true,
+      "component": "tab.tab"
+    }
+  }
+}

@@ -1,4 +1,14 @@
 const config = {
+  translations: {
+    en: {
+      'app.components.LeftMenu.navbrand.title': 'Custom name',
+      'app.components.LeftMenu.navbrand.title': 'Custom workplace'
+    },
+    tr: {
+      'app.components.LeftMenu.navbrand.title': 'Custom name',
+      'app.components.LeftMenu.navbrand.title': 'Custom workplace'
+    }
+  },
   locales: [
     // 'ar',
     // 'fr',
@@ -21,7 +31,7 @@ const config = {
     // 'sk',
     // 'sv',
     // 'th',
-    // 'tr',
+     'tr',
     // 'uk',
     // 'vi',
     // 'zh-Hans',
@@ -31,6 +41,7 @@ const config = {
 
 const bootstrap = (app) => {
   console.log(app);
+  alert("fsfsfs");
 };
 
 export default {
