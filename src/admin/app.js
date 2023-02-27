@@ -1,13 +1,15 @@
+import favicon from "./extensions/favicon.png";
+
 const config = {
   translations: {
     en: {
-      'app.components.LeftMenu.navbrand.title': 'Custom name',
-      'app.components.LeftMenu.navbrand.title': 'Custom workplace'
+      "app.components.LeftMenu.navbrand.title": "PX Admin",
+      "app.components.LeftMenu.navbrand.workplace": "turkishtechnology.com",
     },
     tr: {
-      'app.components.LeftMenu.navbrand.title': 'Custom name',
-      'app.components.LeftMenu.navbrand.title': 'Custom workplace'
-    }
+      "app.components.LeftMenu.navbrand.title": "PX Admin",
+      "app.components.LeftMenu.navbrand.workplace": "turkishtechnology.com",
+    },
   },
   locales: [
     // 'ar',
@@ -29,19 +31,22 @@ const config = {
     // 'pt',
     // 'ru',
     // 'sk',
-    // 'sv',
-    // 'th',
-     'tr',
+    'sv',
+    "th",
+    "en",
+    "tr",
     // 'uk',
     // 'vi',
     // 'zh-Hans',
     // 'zh',
   ],
+  head: {
+    favicon: favicon,
+  },
 };
 
 const bootstrap = (app) => {
   console.log(app);
-  alert("fsfsfs");
 };
 
 export default {

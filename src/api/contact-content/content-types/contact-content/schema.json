@@ -53,6 +53,24 @@
           "localized": true
         }
       }
+    },
+    "contactInfoMainText": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "text"
+    },
+    "contactInfoMainTitle": {
+      "type": "component",
+      "repeatable": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "title.title"
     }
   }
 }

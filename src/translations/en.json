@@ -1,0 +1,29 @@
+{
+  "auth": {
+    "email": "Email",
+    "password": "Password",
+    "signin": "Sign In",
+    "signout": "Sign Out",
+    "forgot-password": "Forgot password?",
+    "reset-password": "Reset password",
+    "new-password": "New password",
+    "or": "or",
+    "signup": "Sign up",
+    "username": "Username",
+    "repeatPassword": "Repeat password"
+  },
+  "components": {
+    "fields": {
+      "created_by": "Created by",
+      "created_at": "Created at",
+      "updated_by": "Updated by",
+      "updated_at": "Updated at"
+    }
+  },
+  "dashboard": {
+    "welcome": "Hoşgeldiniz",
+    "content": "Content",
+    "plugins": "Eklentilerrr",
+    "settings": "Ayarlar En"
+  }
+}

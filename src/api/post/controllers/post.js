@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- * newss controller
+ * post controller
  */
 
 const { createCoreController } = require('@strapi/strapi').factories;
 
-module.exports = createCoreController('api::newss.newss');
+module.exports = createCoreController('api::post.post');
