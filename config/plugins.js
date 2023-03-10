@@ -1,4 +1,7 @@
 module.exports = ({ env }) => ({
+  seo: {
+    enabled: true,
+  },
   menus: {
     config: {
       layouts: {
@@ -22,6 +25,14 @@ module.exports = ({ env }) => ({
   settings: {
     dashboard: {
       content: env("MY_CUSTOM_DASHBOARD", "My Custom Dashboard"),
+    },
+  },
+  ezforms: {
+    config: {
+      captchaProvider: {
+        name: "none",
+      },
+      notificationProviders: [],
     },
   },
 });

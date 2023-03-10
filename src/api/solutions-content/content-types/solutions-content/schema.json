@@ -17,6 +17,16 @@
     },
     "title": {
       "type": "text"
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
+    },
+    "seoSocial": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.meta-social"
     }
   }
 }

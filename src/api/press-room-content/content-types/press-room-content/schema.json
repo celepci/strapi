@@ -4,7 +4,8 @@
   "info": {
     "singularName": "press-room-content",
     "pluralName": "press-room-contents",
-    "displayName": "Press Room Settings"
+    "displayName": "Press Room Settings",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -14,10 +15,15 @@
     "title": {
       "type": "string"
     },
-    "pressItems": {
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
+    },
+    "seoSocial": {
       "type": "component",
       "repeatable": true,
-      "component": "press-item.press-item"
+      "component": "shared.meta-social"
     }
   }
 }

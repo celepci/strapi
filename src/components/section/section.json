@@ -11,17 +11,13 @@
       "repeatable": false,
       "component": "title.title"
     },
-    "SectionRight": {
+    "DetailButton": {
       "type": "component",
       "repeatable": false,
       "component": "button.button"
     },
     "text": {
       "type": "string"
-    },
-    "sectionType": {
-      "type": "enumeration",
-      "enum": ["center", "twopart", "deneme"]
     },
     "toptitle": {
       "type": "string"

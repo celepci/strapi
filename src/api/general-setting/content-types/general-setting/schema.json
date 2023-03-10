@@ -35,6 +35,11 @@
       "type": "component",
       "repeatable": true,
       "component": "social-media.social-media"
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
     }
   }
 }

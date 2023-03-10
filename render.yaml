@@ -1,0 +1,15 @@
+services:
+  - name: strapi
+    type: web
+    env:
+      DATABASE_HOST: "your-database-host"
+      DATABASE_PORT: "your-database-port"
+      DATABASE_NAME: "your-database-name"
+      DATABASE_USERNAME: "your-database-username"
+      DATABASE_PASSWORD: "your-database-password"
+      NODE_ENV: "production"
+    start_cmd: "npm run start"
+    build_cmd: "npm run build"
+    env_secrets:
+      - name: DATABASE_PASSWORD
+        from_secret: your-render-secret-name
