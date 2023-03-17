@@ -1,0 +1,901 @@
+{
+  "name": "Editor",
+  "code": "strapi-editor",
+  "description": "Editors can manage and publish contents including those of other users.",
+  "permissions": [
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::about-content.about-content",
+      "properties": {
+        "fields": [
+          "aboutBox.text",
+          "aboutBox.title",
+          "aboutBox.toptitle",
+          "aboutInfoImage",
+          "aboutInfoText",
+          "aboutInfoTitle.titleBlock1",
+          "aboutInfoTitle.titleBlock2",
+          "aboutSliderItem.date",
+          "aboutSliderItem.text",
+          "aboutSliderItem.title",
+          "aboutVideo",
+          "aboutVideoImage",
+          "countGroup.Count.number",
+          "countGroup.Count.text",
+          "countGroup.text",
+          "features.count.number",
+          "features.count.text",
+          "features.image",
+          "text",
+          "title.titleBlock1",
+          "title.titleBlock2"
+        ],
+        "locales": [
+          "en",
+          "tr-TR"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::about-content.about-content",
+      "properties": {
+        "locales": [
+          "en",
+          "tr-TR"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::about-content.about-content",
+      "properties": {
+        "locales": [
+          "en",
+          "tr-TR"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::about-content.about-content",
+      "properties": {
+        "fields": [
+          "aboutBox.text",
+          "aboutBox.title",
+          "aboutBox.toptitle",
+          "aboutInfoImage",
+          "aboutInfoText",
+          "aboutInfoTitle.titleBlock1",
+          "aboutInfoTitle.titleBlock2",
+          "aboutSliderItem.date",
+          "aboutSliderItem.text",
+          "aboutSliderItem.title",
+          "aboutVideo",
+          "aboutVideoImage",
+          "countGroup.Count.number",
+          "countGroup.Count.text",
+          "countGroup.text",
+          "features.count.number",
+          "features.count.text",
+          "features.image",
+          "text",
+          "title.titleBlock1",
+          "title.titleBlock2"
+        ],
+        "locales": [
+          "en",
+          "tr-TR"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::about-content.about-content",
+      "properties": {
+        "fields": [
+          "aboutBox.text",
+          "aboutBox.title",
+          "aboutBox.toptitle",
+          "aboutInfoImage",
+          "aboutInfoText",
+          "aboutInfoTitle.titleBlock1",
+          "aboutInfoTitle.titleBlock2",
+          "aboutSliderItem.date",
+          "aboutSliderItem.text",
+          "aboutSliderItem.title",
+          "aboutVideo",
+          "aboutVideoImage",
+          "countGroup.Count.number",
+          "countGroup.Count.text",
+          "countGroup.text",
+          "features.count.number",
+          "features.count.text",
+          "features.image",
+          "text",
+          "title.titleBlock1",
+          "title.titleBlock2"
+        ],
+        "locales": [
+          "en",
+          "tr-TR"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::contact-content.contact-content",
+      "properties": {
+        "fields": [
+          "contactInfoItems.image",
+          "contactInfoItems.link",
+          "contactInfoItems.text",
+          "contactInfoItems.title",
+          "contactInfoMainText",
+          "contactInfoMainTitle.titleBlock1",
+          "contactInfoMainTitle.titleBlock2",
+          "locations.address",
+          "locations.image",
+          "locations.linkUrl",
+          "locations.name",
+          "title.titleBlock1",
+          "title.titleBlock2",
+          "toptitle"
+        ],
+        "locales": [
+          "en",
+          "tr-TR"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::contact-content.contact-content",
+      "properties": {
+        "locales": [
+          "en",
+          "tr-TR"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::contact-content.contact-content",
+      "properties": {
+        "locales": [
+          "en",
+          "tr-TR"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::contact-content.contact-content",
+      "properties": {
+        "fields": [
+          "contactInfoItems.image",
+          "contactInfoItems.link",
+          "contactInfoItems.text",
+          "contactInfoItems.title",
+          "contactInfoMainText",
+          "contactInfoMainTitle.titleBlock1",
+          "contactInfoMainTitle.titleBlock2",
+          "locations.address",
+          "locations.image",
+          "locations.linkUrl",
+          "locations.name",
+          "title.titleBlock1",
+          "title.titleBlock2",
+          "toptitle"
+        ],
+        "locales": [
+          "en",
+          "tr-TR"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::contact-content.contact-content",
+      "properties": {
+        "fields": [
+          "contactInfoItems.image",
+          "contactInfoItems.link",
+          "contactInfoItems.text",
+          "contactInfoItems.title",
+          "contactInfoMainText",
+          "contactInfoMainTitle.titleBlock1",
+          "contactInfoMainTitle.titleBlock2",
+          "locations.address",
+          "locations.image",
+          "locations.linkUrl",
+          "locations.name",
+          "title.titleBlock1",
+          "title.titleBlock2",
+          "toptitle"
+        ],
+        "locales": [
+          "en",
+          "tr-TR"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::general-setting.general-setting",
+      "properties": {
+        "fields": [
+          "copyrightText",
+          "footerLogo",
+          "headerLogo",
+          "socialMedia.iconName",
+          "socialMedia.link",
+          "socialMedia.targetBlank"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::general-setting.general-setting",
+      "properties": {
+        "fields": [
+          "copyrightText",
+          "footerLogo",
+          "headerLogo",
+          "socialMedia.iconName",
+          "socialMedia.link",
+          "socialMedia.targetBlank"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::general-setting.general-setting",
+      "properties": {
+        "fields": [
+          "copyrightText",
+          "footerLogo",
+          "headerLogo",
+          "socialMedia.iconName",
+          "socialMedia.link",
+          "socialMedia.targetBlank"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::home-content.home-content",
+      "properties": {
+        "fields": [
+          "text",
+          "services.title.titleBlock1",
+          "services.title.titleBlock2",
+          "services.text",
+          "services.toptitle",
+          "services.iconName",
+          "homeInfoSection.title.titleBlock1",
+          "homeInfoSection.title.titleBlock2",
+          "homeInfoSection.text",
+          "homeInfoSection.toptitle",
+          "homeInfoSection.iconName",
+          "homeInfoItems.title",
+          "homeInfoItems.text",
+          "homeInfoItems.image",
+          "homeInfoItems.count.number",
+          "homeInfoItems.count.text",
+          "careerSection.title.titleBlock1",
+          "careerSection.title.titleBlock2",
+          "careerSection.text",
+          "careerSection.toptitle",
+          "careerSection.iconName",
+          "careerSectionButton.text",
+          "careerSectionButton.link",
+          "careerSectionButton.targetBlank",
+          "careerSectionButton.iconName",
+          "title"
+        ],
+        "locales": [
+          "en",
+          "tr-TR"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::home-content.home-content",
+      "properties": {
+        "locales": [
+          "en",
+          "tr-TR"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::home-content.home-content",
+      "properties": {
+        "locales": [
+          "en",
+          "tr-TR"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::home-content.home-content",
+      "properties": {
+        "fields": [
+          "text",
+          "services.title.titleBlock1",
+          "services.title.titleBlock2",
+          "services.text",
+          "services.toptitle",
+          "services.iconName",
+          "homeInfoSection.title.titleBlock1",
+          "homeInfoSection.title.titleBlock2",
+          "homeInfoSection.text",
+          "homeInfoSection.toptitle",
+          "homeInfoSection.iconName",
+          "homeInfoItems.title",
+          "homeInfoItems.text",
+          "homeInfoItems.image",
+          "homeInfoItems.count.number",
+          "homeInfoItems.count.text",
+          "careerSection.title.titleBlock1",
+          "careerSection.title.titleBlock2",
+          "careerSection.text",
+          "careerSection.toptitle",
+          "careerSection.iconName",
+          "careerSectionButton.text",
+          "careerSectionButton.link",
+          "careerSectionButton.targetBlank",
+          "careerSectionButton.iconName",
+          "title"
+        ],
+        "locales": [
+          "en",
+          "tr-TR"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::home-content.home-content",
+      "properties": {
+        "fields": [
+          "text",
+          "services.title.titleBlock1",
+          "services.title.titleBlock2",
+          "services.text",
+          "services.toptitle",
+          "services.iconName",
+          "homeInfoSection.title.titleBlock1",
+          "homeInfoSection.title.titleBlock2",
+          "homeInfoSection.text",
+          "homeInfoSection.toptitle",
+          "homeInfoSection.iconName",
+          "homeInfoItems.title",
+          "homeInfoItems.text",
+          "homeInfoItems.image",
+          "homeInfoItems.count.number",
+          "homeInfoItems.count.text",
+          "careerSection.title.titleBlock1",
+          "careerSection.title.titleBlock2",
+          "careerSection.text",
+          "careerSection.toptitle",
+          "careerSection.iconName",
+          "careerSectionButton.text",
+          "careerSectionButton.link",
+          "careerSectionButton.targetBlank",
+          "careerSectionButton.iconName",
+          "title"
+        ],
+        "locales": [
+          "en",
+          "tr-TR"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::job.job",
+      "properties": {
+        "fields": [
+          "aboutRole",
+          "content",
+          "jobLevel",
+          "jobType",
+          "location",
+          "title"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::job.job",
+      "properties": {
+        "fields": [
+          "aboutRole",
+          "content",
+          "jobLevel",
+          "jobType",
+          "location",
+          "title"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::job.job",
+      "properties": {
+        "fields": [
+          "aboutRole",
+          "content",
+          "jobLevel",
+          "jobType",
+          "location",
+          "title"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::news-content.news-content",
+      "properties": {
+        "fields": [
+          "seeMoreText"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::news-content.news-content",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::news-content.news-content",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::news-content.news-content",
+      "properties": {
+        "fields": [
+          "seeMoreText"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::news-content.news-content",
+      "properties": {
+        "fields": [
+          "seeMoreText"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::post.post",
+      "properties": {
+        "fields": [
+          "content",
+          "date",
+          "image",
+          "isShowHomepage",
+          "isSpotNews",
+          "spotText",
+          "title"
+        ],
+        "locales": [
+          "en",
+          "tr-TR"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::post.post",
+      "properties": {
+        "locales": [
+          "en",
+          "tr-TR"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::post.post",
+      "properties": {
+        "locales": [
+          "en",
+          "tr-TR"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::post.post",
+      "properties": {
+        "fields": [
+          "content",
+          "date",
+          "image",
+          "isShowHomepage",
+          "isSpotNews",
+          "spotText",
+          "title"
+        ],
+        "locales": [
+          "en",
+          "tr-TR"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::post.post",
+      "properties": {
+        "fields": [
+          "content",
+          "date",
+          "image",
+          "isShowHomepage",
+          "isSpotNews",
+          "spotText",
+          "title"
+        ],
+        "locales": [
+          "en",
+          "tr-TR"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::press-room-content.press-room-content",
+      "properties": {
+        "fields": [
+          "title"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::press-room-content.press-room-content",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::press-room-content.press-room-content",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::press-room-content.press-room-content",
+      "properties": {
+        "fields": [
+          "title"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::press-room-content.press-room-content",
+      "properties": {
+        "fields": [
+          "title"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::press.press",
+      "properties": {
+        "fields": [
+          "buttonLink",
+          "buttonText",
+          "image",
+          "title"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::press.press",
+      "properties": {
+        "fields": [
+          "buttonLink",
+          "buttonText",
+          "image",
+          "title"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::press.press",
+      "properties": {
+        "fields": [
+          "buttonLink",
+          "buttonText",
+          "image",
+          "title"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::service.service",
+      "properties": {
+        "fields": [
+          "icon",
+          "image",
+          "serviceAboutText",
+          "serviceAboutTitle.titleBlock1",
+          "serviceAboutTitle.titleBlock2",
+          "serviceDetailBoxes.text",
+          "serviceDetailBoxes.title",
+          "serviceDetailBoxes.toptitle",
+          "serviceDetailTabs.content",
+          "serviceDetailTabs.tabID",
+          "serviceDetailTabs.tabTitle",
+          "serviceDetailTabs.titleBlock1",
+          "serviceDetailTabs.titleBlock2",
+          "title"
+        ],
+        "locales": [
+          "en",
+          "tr-TR"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::service.service",
+      "properties": {
+        "locales": [
+          "en",
+          "tr-TR"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::service.service",
+      "properties": {
+        "fields": [
+          "icon",
+          "image",
+          "serviceAboutText",
+          "serviceAboutTitle.titleBlock1",
+          "serviceAboutTitle.titleBlock2",
+          "serviceDetailBoxes.text",
+          "serviceDetailBoxes.title",
+          "serviceDetailBoxes.toptitle",
+          "serviceDetailTabs.content",
+          "serviceDetailTabs.tabID",
+          "serviceDetailTabs.tabTitle",
+          "serviceDetailTabs.titleBlock1",
+          "serviceDetailTabs.titleBlock2",
+          "title"
+        ],
+        "locales": [
+          "en",
+          "tr-TR"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::service.service",
+      "properties": {
+        "fields": [
+          "icon",
+          "image",
+          "serviceAboutText",
+          "serviceAboutTitle.titleBlock1",
+          "serviceAboutTitle.titleBlock2",
+          "serviceDetailBoxes.text",
+          "serviceDetailBoxes.title",
+          "serviceDetailBoxes.toptitle",
+          "serviceDetailTabs.content",
+          "serviceDetailTabs.tabID",
+          "serviceDetailTabs.tabTitle",
+          "serviceDetailTabs.titleBlock1",
+          "serviceDetailTabs.titleBlock2",
+          "title"
+        ],
+        "locales": [
+          "en",
+          "tr-TR"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::solutions-content.solutions-content",
+      "properties": {
+        "fields": [
+          "title",
+          "toptitle"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::solutions-content.solutions-content",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::solutions-content.solutions-content",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::solutions-content.solutions-content",
+      "properties": {
+        "fields": [
+          "title",
+          "toptitle"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::solutions-content.solutions-content",
+      "properties": {
+        "fields": [
+          "title",
+          "toptitle"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "plugin::users-permissions.user",
+      "properties": {
+        "fields": [
+          "blocked",
+          "confirmationToken",
+          "confirmed",
+          "email",
+          "password",
+          "provider",
+          "resetPasswordToken",
+          "role",
+          "username"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "plugin::users-permissions.user",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "plugin::users-permissions.user",
+      "properties": {
+        "fields": [
+          "blocked",
+          "confirmationToken",
+          "confirmed",
+          "email",
+          "password",
+          "provider",
+          "resetPasswordToken",
+          "role",
+          "username"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "plugin::users-permissions.user",
+      "properties": {
+        "fields": [
+          "blocked",
+          "confirmationToken",
+          "confirmed",
+          "email",
+          "password",
+          "provider",
+          "resetPasswordToken",
+          "role",
+          "username"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::upload.assets.copy-link",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::upload.assets.create",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::upload.assets.download",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::upload.assets.update",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::upload.configure-view",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::upload.read",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    }
+  ]
+}

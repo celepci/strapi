@@ -1,0 +1,28 @@
+{
+  "key": "core_admin_project-settings",
+  "value": {
+    "menuLogo": {
+      "name": "thy-logo.png",
+      "hash": "thy_logo_f6744eac5a",
+      "url": "/uploads/thy_logo_f6744eac5a.png",
+      "width": 300,
+      "height": 300,
+      "ext": ".png",
+      "size": 19.65,
+      "provider": "local"
+    },
+    "authLogo": {
+      "name": "thy-logo.png",
+      "hash": "thy_logo_907fdf4ee1",
+      "url": "/uploads/thy_logo_907fdf4ee1.png",
+      "width": 300,
+      "height": 300,
+      "ext": ".png",
+      "size": 19.65,
+      "provider": "local"
+    }
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

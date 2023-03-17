@@ -1,0 +1,137 @@
+{
+  "key": "plugin_content_manager_configuration_components::section.section",
+  "value": {
+    "uid": "section.section",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "text",
+      "defaultSortBy": "text",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "title": {
+        "edit": {
+          "label": "Section Başlık",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "title",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "DetailButton": {
+        "edit": {
+          "label": "Section Detay Butonu",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "DetailButton",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "text": {
+        "edit": {
+          "label": "Section Yazı",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "text",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "toptitle": {
+        "edit": {
+          "label": "Section Üst Başlık",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "toptitle",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "iconName": {
+        "edit": {
+          "label": "Section İkon",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "iconName",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "title",
+        "text",
+        "DetailButton"
+      ],
+      "edit": [
+        [
+          {
+            "name": "toptitle",
+            "size": 6
+          },
+          {
+            "name": "iconName",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "title",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "text",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "DetailButton",
+            "size": 12
+          }
+        ]
+      ]
+    },
+    "isComponent": true
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

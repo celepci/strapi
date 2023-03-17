@@ -1,0 +1,164 @@
+{
+  "key": "plugin_content_manager_configuration_content_types::api::general-setting.general-setting",
+  "value": {
+    "uid": "api::general-setting.general-setting",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "copyrightText",
+      "defaultSortBy": "copyrightText",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "copyrightText": {
+        "edit": {
+          "label": "copyrightText",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "copyrightText",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "headerLogo": {
+        "edit": {
+          "label": "headerLogo",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "headerLogo",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "footerLogo": {
+        "edit": {
+          "label": "footerLogo",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "footerLogo",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "socialMedia": {
+        "edit": {
+          "label": "socialMedia",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "socialMedia",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "logoBlack": {
+        "edit": {
+          "label": "logoBlack",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "logoBlack",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "createdAt": {
+        "edit": {
+          "label": "createdAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "createdAt",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "updatedAt": {
+        "edit": {
+          "label": "updatedAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "updatedAt",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "edit": [
+        [
+          {
+            "name": "copyrightText",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "headerLogo",
+            "size": 6
+          },
+          {
+            "name": "logoBlack",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "footerLogo",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "socialMedia",
+            "size": 12
+          }
+        ]
+      ],
+      "list": [
+        "id",
+        "copyrightText",
+        "headerLogo",
+        "footerLogo"
+      ]
+    }
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

@@ -1,0 +1,226 @@
+{
+  "key": "plugin_content_manager_configuration_content_types::api::contact-content.contact-content",
+  "value": {
+    "uid": "api::contact-content.contact-content",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "toptitle",
+      "defaultSortBy": "toptitle",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "toptitle": {
+        "edit": {
+          "label": "1Üst Başlık",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "toptitle",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "title": {
+        "edit": {
+          "label": "Ana Başlık",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "title",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "locations": {
+        "edit": {
+          "label": "Lokasyonlar",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "locations",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "contactInfoItems": {
+        "edit": {
+          "label": "İletişim Bilgileri (Telefon-Mail)",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "contactInfoItems",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "contactInfoMainText": {
+        "edit": {
+          "label": "İletişim Bilgileri Bölüm Yazı",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "contactInfoMainText",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "contactInfoMainTitle": {
+        "edit": {
+          "label": "İletişim Bilgileri Bölüm Başlık",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "contactInfoMainTitle",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "seo": {
+        "edit": {
+          "label": "seo",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "seo",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "seoSocial": {
+        "edit": {
+          "label": "seoSocial",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "seoSocial",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "createdAt": {
+        "edit": {
+          "label": "createdAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "createdAt",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "updatedAt": {
+        "edit": {
+          "label": "updatedAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "updatedAt",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "edit": [
+        [
+          {
+            "name": "toptitle",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "title",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "locations",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "contactInfoMainTitle",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "contactInfoMainText",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "contactInfoItems",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "seo",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "seoSocial",
+            "size": 12
+          }
+        ]
+      ],
+      "list": [
+        "id",
+        "toptitle",
+        "title",
+        "locations"
+      ]
+    }
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

@@ -1,0 +1,242 @@
+{
+  "key": "plugin_content_manager_configuration_content_types::api::job.job",
+  "value": {
+    "uid": "api::job.job",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 50,
+      "mainField": "id",
+      "defaultSortBy": "id",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "title": {
+        "edit": {
+          "label": "İlan Başlığı",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "title",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "location": {
+        "edit": {
+          "label": "İlan Lokasyonu",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "location",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "aboutRole": {
+        "edit": {
+          "label": "İlan Özeti",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "aboutRole",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "jobType": {
+        "edit": {
+          "label": "İlan Tipi",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "jobType",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "content": {
+        "edit": {
+          "label": "İçerik",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "content",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "jobLevel": {
+        "edit": {
+          "label": "İlan Seviyesi",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "jobLevel",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "applyButtonText": {
+        "edit": {
+          "label": "İlana Başvur Butonu Başlığı",
+          "description": "",
+          "placeholder": "Apply",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "applyButtonText",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "applyButtonLink": {
+        "edit": {
+          "label": "İlana Başvur Butonu Linki",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "applyButtonLink",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "slug": {
+        "edit": {
+          "label": "slug",
+          "description": "Otomatik oluşturulur",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "slug",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "createdAt": {
+        "edit": {
+          "label": "createdAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "createdAt",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "updatedAt": {
+        "edit": {
+          "label": "updatedAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "updatedAt",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "edit": [
+        [
+          {
+            "name": "title",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "slug",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "location",
+            "size": 6
+          },
+          {
+            "name": "jobType",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "jobLevel",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "applyButtonText",
+            "size": 6
+          },
+          {
+            "name": "applyButtonLink",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "aboutRole",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "content",
+            "size": 12
+          }
+        ]
+      ],
+      "list": [
+        "id",
+        "createdAt",
+        "updatedAt",
+        "title"
+      ]
+    }
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

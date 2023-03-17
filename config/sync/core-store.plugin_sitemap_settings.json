@@ -1,0 +1,33 @@
+{
+  "key": "plugin_sitemap_settings",
+  "value": {
+    "hostname": "https://deneme.com",
+    "includeHomepage": true,
+    "excludeDrafts": true,
+    "hostname_overrides": {
+      "en": "https://deneme.com/",
+      "tr-TR": "https://deneme.com/tr"
+    },
+    "contentTypes": {
+      "api::press.press": {
+        "languages": {
+          "und": {
+            "pattern": "/press/[id]"
+          }
+        }
+      },
+      "api::service.service": {
+        "languages": {
+          "und": {
+            "pattern": "/sevice/[id]",
+            "priority": 1
+          }
+        }
+      }
+    },
+    "customEntries": {}
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

@@ -1,0 +1,173 @@
+{
+  "key": "plugin_seo_settings",
+  "value": {
+    "api::about-content.about-content": {
+      "collectionName": "about-content",
+      "seoChecks": {
+        "metaTitle": true,
+        "metaDescription": true,
+        "metaRobots": true,
+        "metaSocial": true,
+        "wordCount": true,
+        "canonicalUrl": true,
+        "keywordDensity": true,
+        "structuredData": true,
+        "alternativeText": true,
+        "lastUpdatedAt": true
+      }
+    },
+    "api::contact-content.contact-content": {
+      "collectionName": "contact-content",
+      "seoChecks": {
+        "metaTitle": true,
+        "metaDescription": true,
+        "metaRobots": true,
+        "metaSocial": true,
+        "wordCount": true,
+        "canonicalUrl": true,
+        "keywordDensity": true,
+        "structuredData": true,
+        "alternativeText": true,
+        "lastUpdatedAt": true
+      }
+    },
+    "api::general-setting.general-setting": {
+      "collectionName": "general-setting",
+      "seoChecks": {
+        "metaTitle": true,
+        "metaDescription": true,
+        "metaRobots": true,
+        "metaSocial": true,
+        "wordCount": true,
+        "canonicalUrl": true,
+        "keywordDensity": true,
+        "structuredData": true,
+        "alternativeText": true,
+        "lastUpdatedAt": true
+      }
+    },
+    "api::home-content.home-content": {
+      "collectionName": "home-content",
+      "seoChecks": {
+        "metaTitle": true,
+        "metaDescription": true,
+        "metaRobots": true,
+        "metaSocial": true,
+        "wordCount": true,
+        "canonicalUrl": true,
+        "keywordDensity": true,
+        "structuredData": true,
+        "alternativeText": true,
+        "lastUpdatedAt": true
+      }
+    },
+    "api::job.job": {
+      "collectionName": "job",
+      "seoChecks": {
+        "metaTitle": true,
+        "metaDescription": true,
+        "metaRobots": true,
+        "metaSocial": true,
+        "wordCount": true,
+        "canonicalUrl": true,
+        "keywordDensity": true,
+        "structuredData": true,
+        "alternativeText": true,
+        "lastUpdatedAt": true
+      }
+    },
+    "api::news-content.news-content": {
+      "collectionName": "news-content",
+      "seoChecks": {
+        "metaTitle": true,
+        "metaDescription": true,
+        "metaRobots": true,
+        "metaSocial": true,
+        "wordCount": true,
+        "canonicalUrl": true,
+        "keywordDensity": true,
+        "structuredData": true,
+        "alternativeText": true,
+        "lastUpdatedAt": true
+      }
+    },
+    "api::post.post": {
+      "collectionName": "post",
+      "seoChecks": {
+        "metaTitle": true,
+        "metaDescription": true,
+        "metaRobots": true,
+        "metaSocial": true,
+        "wordCount": true,
+        "canonicalUrl": true,
+        "keywordDensity": true,
+        "structuredData": true,
+        "alternativeText": true,
+        "lastUpdatedAt": true
+      }
+    },
+    "api::press.press": {
+      "collectionName": "press",
+      "seoChecks": {
+        "metaTitle": true,
+        "metaDescription": true,
+        "metaRobots": true,
+        "metaSocial": true,
+        "wordCount": true,
+        "canonicalUrl": true,
+        "keywordDensity": true,
+        "structuredData": true,
+        "alternativeText": true,
+        "lastUpdatedAt": true
+      }
+    },
+    "api::press-room-content.press-room-content": {
+      "collectionName": "press-room-content",
+      "seoChecks": {
+        "metaTitle": true,
+        "metaDescription": true,
+        "metaRobots": true,
+        "metaSocial": true,
+        "wordCount": true,
+        "canonicalUrl": true,
+        "keywordDensity": true,
+        "structuredData": true,
+        "alternativeText": true,
+        "lastUpdatedAt": true
+      }
+    },
+    "api::service.service": {
+      "collectionName": "service",
+      "seoChecks": {
+        "metaTitle": true,
+        "metaDescription": true,
+        "metaRobots": true,
+        "metaSocial": true,
+        "wordCount": true,
+        "canonicalUrl": true,
+        "keywordDensity": true,
+        "structuredData": true,
+        "alternativeText": true,
+        "lastUpdatedAt": true
+      }
+    },
+    "api::solutions-content.solutions-content": {
+      "collectionName": "solutions-content",
+      "seoChecks": {
+        "metaTitle": true,
+        "metaDescription": true,
+        "metaRobots": true,
+        "metaSocial": true,
+        "wordCount": true,
+        "canonicalUrl": true,
+        "keywordDensity": true,
+        "structuredData": true,
+        "alternativeText": true,
+        "lastUpdatedAt": true
+      }
+    }
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

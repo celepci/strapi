@@ -1,0 +1,324 @@
+{
+  "key": "plugin_content_manager_configuration_content_types::api::about-content.about-content",
+  "value": {
+    "uid": "api::about-content.about-content",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "id",
+      "defaultSortBy": "id",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "text": {
+        "edit": {
+          "label": "Spot Text",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "text",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "features": {
+        "edit": {
+          "label": "Özellikler Kutuları",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "features",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "aboutInfoTitle": {
+        "edit": {
+          "label": "Hakkımızda Info Başlık",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "aboutInfoTitle",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "aboutInfoText": {
+        "edit": {
+          "label": "Hakkımızda Info Text",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "aboutInfoText",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "aboutInfoImage": {
+        "edit": {
+          "label": "Hakkımızda Info Görsel",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "aboutInfoImage",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "countGroup": {
+        "edit": {
+          "label": "Count Grup ",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "countGroup",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "aboutVideoImage": {
+        "edit": {
+          "label": "Hakkımızda Video Görseli",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "aboutVideoImage",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "aboutVideo": {
+        "edit": {
+          "label": "Hakkımızda Video ",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "aboutVideo",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "aboutBox": {
+        "edit": {
+          "label": "Hakkımızda Vizyon-Misyon Box",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "aboutBox",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "aboutSliderItem": {
+        "edit": {
+          "label": "Tarihçe Slider Item",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "aboutSliderItem",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "title": {
+        "edit": {
+          "label": "Ana Başlık",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "title",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "seo": {
+        "edit": {
+          "label": "seo",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "seo",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "seoSocial": {
+        "edit": {
+          "label": "seoSocial",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "seoSocial",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "createdAt": {
+        "edit": {
+          "label": "createdAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "createdAt",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "updatedAt": {
+        "edit": {
+          "label": "updatedAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "updatedAt",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "title",
+        "text",
+        "features"
+      ],
+      "edit": [
+        [
+          {
+            "name": "title",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "text",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "features",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "aboutInfoTitle",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "aboutInfoText",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "aboutInfoImage",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "countGroup",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "aboutVideoImage",
+            "size": 6
+          },
+          {
+            "name": "aboutVideo",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "aboutBox",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "aboutSliderItem",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "seoSocial",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "seo",
+            "size": 12
+          }
+        ]
+      ]
+    }
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

@@ -1,0 +1,1755 @@
+{
+  "name": "Super Admin",
+  "code": "strapi-super-admin",
+  "description": "Super Admins can access and manage all features and settings.",
+  "permissions": [
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::about-content.about-content",
+      "properties": {
+        "fields": [
+          "text",
+          "features.image",
+          "features.count.number",
+          "features.count.text",
+          "aboutInfoTitle.titleBlock1",
+          "aboutInfoTitle.titleBlock2",
+          "aboutInfoText",
+          "aboutInfoImage",
+          "countGroup.text",
+          "countGroup.Count.number",
+          "countGroup.Count.text",
+          "aboutVideoImage",
+          "aboutVideo",
+          "aboutBox.toptitle",
+          "aboutBox.title",
+          "aboutBox.text",
+          "aboutSliderItem.date",
+          "aboutSliderItem.title",
+          "aboutSliderItem.text",
+          "title.titleBlock1",
+          "title.titleBlock2",
+          "seo.metaTitle",
+          "seo.metaDescription",
+          "seo.metaImage",
+          "seo.metaSocial.socialNetwork",
+          "seo.metaSocial.title",
+          "seo.metaSocial.description",
+          "seo.metaSocial.image",
+          "seo.keywords",
+          "seo.metaRobots",
+          "seo.structuredData",
+          "seo.metaViewport",
+          "seo.canonicalURL",
+          "seoSocial.socialNetwork",
+          "seoSocial.title",
+          "seoSocial.description",
+          "seoSocial.image"
+        ],
+        "locales": [
+          "tr-TR",
+          "en"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::about-content.about-content",
+      "properties": {
+        "locales": [
+          "tr-TR",
+          "en"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::about-content.about-content",
+      "properties": {
+        "locales": [
+          "tr-TR",
+          "en"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::about-content.about-content",
+      "properties": {
+        "fields": [
+          "text",
+          "features.image",
+          "features.count.number",
+          "features.count.text",
+          "aboutInfoTitle.titleBlock1",
+          "aboutInfoTitle.titleBlock2",
+          "aboutInfoText",
+          "aboutInfoImage",
+          "countGroup.text",
+          "countGroup.Count.number",
+          "countGroup.Count.text",
+          "aboutVideoImage",
+          "aboutVideo",
+          "aboutBox.toptitle",
+          "aboutBox.title",
+          "aboutBox.text",
+          "aboutSliderItem.date",
+          "aboutSliderItem.title",
+          "aboutSliderItem.text",
+          "title.titleBlock1",
+          "title.titleBlock2",
+          "seo.metaTitle",
+          "seo.metaDescription",
+          "seo.metaImage",
+          "seo.metaSocial.socialNetwork",
+          "seo.metaSocial.title",
+          "seo.metaSocial.description",
+          "seo.metaSocial.image",
+          "seo.keywords",
+          "seo.metaRobots",
+          "seo.structuredData",
+          "seo.metaViewport",
+          "seo.canonicalURL",
+          "seoSocial.socialNetwork",
+          "seoSocial.title",
+          "seoSocial.description",
+          "seoSocial.image"
+        ],
+        "locales": [
+          "tr-TR",
+          "en"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::about-content.about-content",
+      "properties": {
+        "fields": [
+          "text",
+          "features.image",
+          "features.count.number",
+          "features.count.text",
+          "aboutInfoTitle.titleBlock1",
+          "aboutInfoTitle.titleBlock2",
+          "aboutInfoText",
+          "aboutInfoImage",
+          "countGroup.text",
+          "countGroup.Count.number",
+          "countGroup.Count.text",
+          "aboutVideoImage",
+          "aboutVideo",
+          "aboutBox.toptitle",
+          "aboutBox.title",
+          "aboutBox.text",
+          "aboutSliderItem.date",
+          "aboutSliderItem.title",
+          "aboutSliderItem.text",
+          "title.titleBlock1",
+          "title.titleBlock2",
+          "seo.metaTitle",
+          "seo.metaDescription",
+          "seo.metaImage",
+          "seo.metaSocial.socialNetwork",
+          "seo.metaSocial.title",
+          "seo.metaSocial.description",
+          "seo.metaSocial.image",
+          "seo.keywords",
+          "seo.metaRobots",
+          "seo.structuredData",
+          "seo.metaViewport",
+          "seo.canonicalURL",
+          "seoSocial.socialNetwork",
+          "seoSocial.title",
+          "seoSocial.description",
+          "seoSocial.image"
+        ],
+        "locales": [
+          "tr-TR",
+          "en"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::contact-content.contact-content",
+      "properties": {
+        "fields": [
+          "toptitle",
+          "title.titleBlock1",
+          "title.titleBlock2",
+          "locations.image",
+          "locations.name",
+          "locations.address",
+          "locations.linkUrl",
+          "contactInfoItems.image",
+          "contactInfoItems.title",
+          "contactInfoItems.text",
+          "contactInfoItems.link",
+          "contactInfoMainText",
+          "contactInfoMainTitle.titleBlock1",
+          "contactInfoMainTitle.titleBlock2",
+          "seo.metaTitle",
+          "seo.metaDescription",
+          "seo.metaImage",
+          "seo.metaSocial.socialNetwork",
+          "seo.metaSocial.title",
+          "seo.metaSocial.description",
+          "seo.metaSocial.image",
+          "seo.keywords",
+          "seo.metaRobots",
+          "seo.structuredData",
+          "seo.metaViewport",
+          "seo.canonicalURL",
+          "seoSocial.socialNetwork",
+          "seoSocial.title",
+          "seoSocial.description",
+          "seoSocial.image"
+        ],
+        "locales": [
+          "tr-TR",
+          "en"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::contact-content.contact-content",
+      "properties": {
+        "locales": [
+          "tr-TR",
+          "en"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::contact-content.contact-content",
+      "properties": {
+        "locales": [
+          "tr-TR",
+          "en"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::contact-content.contact-content",
+      "properties": {
+        "fields": [
+          "toptitle",
+          "title.titleBlock1",
+          "title.titleBlock2",
+          "locations.image",
+          "locations.name",
+          "locations.address",
+          "locations.linkUrl",
+          "contactInfoItems.image",
+          "contactInfoItems.title",
+          "contactInfoItems.text",
+          "contactInfoItems.link",
+          "contactInfoMainText",
+          "contactInfoMainTitle.titleBlock1",
+          "contactInfoMainTitle.titleBlock2",
+          "seo.metaTitle",
+          "seo.metaDescription",
+          "seo.metaImage",
+          "seo.metaSocial.socialNetwork",
+          "seo.metaSocial.title",
+          "seo.metaSocial.description",
+          "seo.metaSocial.image",
+          "seo.keywords",
+          "seo.metaRobots",
+          "seo.structuredData",
+          "seo.metaViewport",
+          "seo.canonicalURL",
+          "seoSocial.socialNetwork",
+          "seoSocial.title",
+          "seoSocial.description",
+          "seoSocial.image"
+        ],
+        "locales": [
+          "tr-TR",
+          "en"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::contact-content.contact-content",
+      "properties": {
+        "fields": [
+          "toptitle",
+          "title.titleBlock1",
+          "title.titleBlock2",
+          "locations.image",
+          "locations.name",
+          "locations.address",
+          "locations.linkUrl",
+          "contactInfoItems.image",
+          "contactInfoItems.title",
+          "contactInfoItems.text",
+          "contactInfoItems.link",
+          "contactInfoMainText",
+          "contactInfoMainTitle.titleBlock1",
+          "contactInfoMainTitle.titleBlock2",
+          "seo.metaTitle",
+          "seo.metaDescription",
+          "seo.metaImage",
+          "seo.metaSocial.socialNetwork",
+          "seo.metaSocial.title",
+          "seo.metaSocial.description",
+          "seo.metaSocial.image",
+          "seo.keywords",
+          "seo.metaRobots",
+          "seo.structuredData",
+          "seo.metaViewport",
+          "seo.canonicalURL",
+          "seoSocial.socialNetwork",
+          "seoSocial.title",
+          "seoSocial.description",
+          "seoSocial.image"
+        ],
+        "locales": [
+          "tr-TR",
+          "en"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::general-setting.general-setting",
+      "properties": {
+        "fields": [
+          "copyrightText",
+          "headerLogo",
+          "footerLogo",
+          "socialMedia.iconName",
+          "socialMedia.link",
+          "socialMedia.targetBlank",
+          "logoBlack"
+        ],
+        "locales": [
+          "tr-TR",
+          "en"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::general-setting.general-setting",
+      "properties": {
+        "locales": [
+          "tr-TR",
+          "en"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::general-setting.general-setting",
+      "properties": {
+        "locales": [
+          "tr-TR",
+          "en"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::general-setting.general-setting",
+      "properties": {
+        "fields": [
+          "copyrightText",
+          "headerLogo",
+          "footerLogo",
+          "socialMedia.iconName",
+          "socialMedia.link",
+          "socialMedia.targetBlank",
+          "logoBlack"
+        ],
+        "locales": [
+          "tr-TR",
+          "en"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::general-setting.general-setting",
+      "properties": {
+        "fields": [
+          "copyrightText",
+          "headerLogo",
+          "footerLogo",
+          "socialMedia.iconName",
+          "socialMedia.link",
+          "socialMedia.targetBlank",
+          "logoBlack"
+        ],
+        "locales": [
+          "tr-TR",
+          "en"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::home-content.home-content",
+      "properties": {
+        "fields": [
+          "text",
+          "services.title.titleBlock1",
+          "services.title.titleBlock2",
+          "services.DetailButton.text",
+          "services.DetailButton.link",
+          "services.DetailButton.targetBlank",
+          "services.DetailButton.iconName",
+          "services.text",
+          "services.toptitle",
+          "services.iconName",
+          "homeInfoSection.title.titleBlock1",
+          "homeInfoSection.title.titleBlock2",
+          "homeInfoSection.DetailButton.text",
+          "homeInfoSection.DetailButton.link",
+          "homeInfoSection.DetailButton.targetBlank",
+          "homeInfoSection.DetailButton.iconName",
+          "homeInfoSection.text",
+          "homeInfoSection.toptitle",
+          "homeInfoSection.iconName",
+          "homeInfoItems.title",
+          "homeInfoItems.text",
+          "homeInfoItems.image",
+          "homeInfoItems.count.number",
+          "homeInfoItems.count.text",
+          "careerSection.title.titleBlock1",
+          "careerSection.title.titleBlock2",
+          "careerSection.DetailButton.text",
+          "careerSection.DetailButton.link",
+          "careerSection.DetailButton.targetBlank",
+          "careerSection.DetailButton.iconName",
+          "careerSection.text",
+          "careerSection.toptitle",
+          "careerSection.iconName",
+          "careerSectionButton.text",
+          "careerSectionButton.link",
+          "careerSectionButton.targetBlank",
+          "careerSectionButton.iconName",
+          "title",
+          "seo.metaTitle",
+          "seo.metaDescription",
+          "seo.metaImage",
+          "seo.metaSocial.socialNetwork",
+          "seo.metaSocial.title",
+          "seo.metaSocial.description",
+          "seo.metaSocial.image",
+          "seo.keywords",
+          "seo.metaRobots",
+          "seo.structuredData",
+          "seo.metaViewport",
+          "seo.canonicalURL",
+          "seoSocial.socialNetwork",
+          "seoSocial.title",
+          "seoSocial.description",
+          "seoSocial.image"
+        ],
+        "locales": [
+          "tr-TR",
+          "en"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::home-content.home-content",
+      "properties": {
+        "locales": [
+          "tr-TR",
+          "en"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::home-content.home-content",
+      "properties": {
+        "locales": [
+          "tr-TR",
+          "en"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::home-content.home-content",
+      "properties": {
+        "fields": [
+          "text",
+          "services.title.titleBlock1",
+          "services.title.titleBlock2",
+          "services.DetailButton.text",
+          "services.DetailButton.link",
+          "services.DetailButton.targetBlank",
+          "services.DetailButton.iconName",
+          "services.text",
+          "services.toptitle",
+          "services.iconName",
+          "homeInfoSection.title.titleBlock1",
+          "homeInfoSection.title.titleBlock2",
+          "homeInfoSection.DetailButton.text",
+          "homeInfoSection.DetailButton.link",
+          "homeInfoSection.DetailButton.targetBlank",
+          "homeInfoSection.DetailButton.iconName",
+          "homeInfoSection.text",
+          "homeInfoSection.toptitle",
+          "homeInfoSection.iconName",
+          "homeInfoItems.title",
+          "homeInfoItems.text",
+          "homeInfoItems.image",
+          "homeInfoItems.count.number",
+          "homeInfoItems.count.text",
+          "careerSection.title.titleBlock1",
+          "careerSection.title.titleBlock2",
+          "careerSection.DetailButton.text",
+          "careerSection.DetailButton.link",
+          "careerSection.DetailButton.targetBlank",
+          "careerSection.DetailButton.iconName",
+          "careerSection.text",
+          "careerSection.toptitle",
+          "careerSection.iconName",
+          "careerSectionButton.text",
+          "careerSectionButton.link",
+          "careerSectionButton.targetBlank",
+          "careerSectionButton.iconName",
+          "title",
+          "seo.metaTitle",
+          "seo.metaDescription",
+          "seo.metaImage",
+          "seo.metaSocial.socialNetwork",
+          "seo.metaSocial.title",
+          "seo.metaSocial.description",
+          "seo.metaSocial.image",
+          "seo.keywords",
+          "seo.metaRobots",
+          "seo.structuredData",
+          "seo.metaViewport",
+          "seo.canonicalURL",
+          "seoSocial.socialNetwork",
+          "seoSocial.title",
+          "seoSocial.description",
+          "seoSocial.image"
+        ],
+        "locales": [
+          "tr-TR",
+          "en"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::home-content.home-content",
+      "properties": {
+        "fields": [
+          "text",
+          "services.title.titleBlock1",
+          "services.title.titleBlock2",
+          "services.DetailButton.text",
+          "services.DetailButton.link",
+          "services.DetailButton.targetBlank",
+          "services.DetailButton.iconName",
+          "services.text",
+          "services.toptitle",
+          "services.iconName",
+          "homeInfoSection.title.titleBlock1",
+          "homeInfoSection.title.titleBlock2",
+          "homeInfoSection.DetailButton.text",
+          "homeInfoSection.DetailButton.link",
+          "homeInfoSection.DetailButton.targetBlank",
+          "homeInfoSection.DetailButton.iconName",
+          "homeInfoSection.text",
+          "homeInfoSection.toptitle",
+          "homeInfoSection.iconName",
+          "homeInfoItems.title",
+          "homeInfoItems.text",
+          "homeInfoItems.image",
+          "homeInfoItems.count.number",
+          "homeInfoItems.count.text",
+          "careerSection.title.titleBlock1",
+          "careerSection.title.titleBlock2",
+          "careerSection.DetailButton.text",
+          "careerSection.DetailButton.link",
+          "careerSection.DetailButton.targetBlank",
+          "careerSection.DetailButton.iconName",
+          "careerSection.text",
+          "careerSection.toptitle",
+          "careerSection.iconName",
+          "careerSectionButton.text",
+          "careerSectionButton.link",
+          "careerSectionButton.targetBlank",
+          "careerSectionButton.iconName",
+          "title",
+          "seo.metaTitle",
+          "seo.metaDescription",
+          "seo.metaImage",
+          "seo.metaSocial.socialNetwork",
+          "seo.metaSocial.title",
+          "seo.metaSocial.description",
+          "seo.metaSocial.image",
+          "seo.keywords",
+          "seo.metaRobots",
+          "seo.structuredData",
+          "seo.metaViewport",
+          "seo.canonicalURL",
+          "seoSocial.socialNetwork",
+          "seoSocial.title",
+          "seoSocial.description",
+          "seoSocial.image"
+        ],
+        "locales": [
+          "tr-TR",
+          "en"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::job.job",
+      "properties": {
+        "fields": [
+          "title",
+          "location",
+          "aboutRole",
+          "jobType",
+          "content",
+          "jobLevel",
+          "applyButtonText",
+          "applyButtonLink",
+          "slug"
+        ],
+        "locales": [
+          "tr-TR",
+          "en"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::job.job",
+      "properties": {
+        "locales": [
+          "tr-TR",
+          "en"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::job.job",
+      "properties": {
+        "locales": [
+          "tr-TR",
+          "en"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::job.job",
+      "properties": {
+        "fields": [
+          "title",
+          "location",
+          "aboutRole",
+          "jobType",
+          "content",
+          "jobLevel",
+          "applyButtonText",
+          "applyButtonLink",
+          "slug"
+        ],
+        "locales": [
+          "tr-TR",
+          "en"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::job.job",
+      "properties": {
+        "fields": [
+          "title",
+          "location",
+          "aboutRole",
+          "jobType",
+          "content",
+          "jobLevel",
+          "applyButtonText",
+          "applyButtonLink",
+          "slug"
+        ],
+        "locales": [
+          "tr-TR",
+          "en"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::news-content.news-content",
+      "properties": {
+        "fields": [
+          "seeMoreText",
+          "seo.metaTitle",
+          "seo.metaDescription",
+          "seo.metaImage",
+          "seo.metaSocial.socialNetwork",
+          "seo.metaSocial.title",
+          "seo.metaSocial.description",
+          "seo.metaSocial.image",
+          "seo.keywords",
+          "seo.metaRobots",
+          "seo.structuredData",
+          "seo.metaViewport",
+          "seo.canonicalURL",
+          "seoSocial.socialNetwork",
+          "seoSocial.title",
+          "seoSocial.description",
+          "seoSocial.image"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::news-content.news-content",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::news-content.news-content",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::news-content.news-content",
+      "properties": {
+        "fields": [
+          "seeMoreText",
+          "seo.metaTitle",
+          "seo.metaDescription",
+          "seo.metaImage",
+          "seo.metaSocial.socialNetwork",
+          "seo.metaSocial.title",
+          "seo.metaSocial.description",
+          "seo.metaSocial.image",
+          "seo.keywords",
+          "seo.metaRobots",
+          "seo.structuredData",
+          "seo.metaViewport",
+          "seo.canonicalURL",
+          "seoSocial.socialNetwork",
+          "seoSocial.title",
+          "seoSocial.description",
+          "seoSocial.image"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::news-content.news-content",
+      "properties": {
+        "fields": [
+          "seeMoreText",
+          "seo.metaTitle",
+          "seo.metaDescription",
+          "seo.metaImage",
+          "seo.metaSocial.socialNetwork",
+          "seo.metaSocial.title",
+          "seo.metaSocial.description",
+          "seo.metaSocial.image",
+          "seo.keywords",
+          "seo.metaRobots",
+          "seo.structuredData",
+          "seo.metaViewport",
+          "seo.canonicalURL",
+          "seoSocial.socialNetwork",
+          "seoSocial.title",
+          "seoSocial.description",
+          "seoSocial.image"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::post.post",
+      "properties": {
+        "fields": [
+          "title",
+          "spotText",
+          "date",
+          "content",
+          "image",
+          "isSpotNews",
+          "isShowHomepage",
+          "slug"
+        ],
+        "locales": [
+          "tr-TR",
+          "en"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::post.post",
+      "properties": {
+        "locales": [
+          "tr-TR",
+          "en"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::post.post",
+      "properties": {
+        "locales": [
+          "tr-TR",
+          "en"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::post.post",
+      "properties": {
+        "fields": [
+          "title",
+          "spotText",
+          "date",
+          "content",
+          "image",
+          "isSpotNews",
+          "isShowHomepage",
+          "slug"
+        ],
+        "locales": [
+          "tr-TR",
+          "en"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::post.post",
+      "properties": {
+        "fields": [
+          "title",
+          "spotText",
+          "date",
+          "content",
+          "image",
+          "isSpotNews",
+          "isShowHomepage",
+          "slug"
+        ],
+        "locales": [
+          "tr-TR",
+          "en"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::press-room-content.press-room-content",
+      "properties": {
+        "fields": [
+          "title",
+          "seo.metaTitle",
+          "seo.metaDescription",
+          "seo.metaImage",
+          "seo.metaSocial.socialNetwork",
+          "seo.metaSocial.title",
+          "seo.metaSocial.description",
+          "seo.metaSocial.image",
+          "seo.keywords",
+          "seo.metaRobots",
+          "seo.structuredData",
+          "seo.metaViewport",
+          "seo.canonicalURL",
+          "seoSocial.socialNetwork",
+          "seoSocial.title",
+          "seoSocial.description",
+          "seoSocial.image"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::press-room-content.press-room-content",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::press-room-content.press-room-content",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::press-room-content.press-room-content",
+      "properties": {
+        "fields": [
+          "title",
+          "seo.metaTitle",
+          "seo.metaDescription",
+          "seo.metaImage",
+          "seo.metaSocial.socialNetwork",
+          "seo.metaSocial.title",
+          "seo.metaSocial.description",
+          "seo.metaSocial.image",
+          "seo.keywords",
+          "seo.metaRobots",
+          "seo.structuredData",
+          "seo.metaViewport",
+          "seo.canonicalURL",
+          "seoSocial.socialNetwork",
+          "seoSocial.title",
+          "seoSocial.description",
+          "seoSocial.image"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::press-room-content.press-room-content",
+      "properties": {
+        "fields": [
+          "title",
+          "seo.metaTitle",
+          "seo.metaDescription",
+          "seo.metaImage",
+          "seo.metaSocial.socialNetwork",
+          "seo.metaSocial.title",
+          "seo.metaSocial.description",
+          "seo.metaSocial.image",
+          "seo.keywords",
+          "seo.metaRobots",
+          "seo.structuredData",
+          "seo.metaViewport",
+          "seo.canonicalURL",
+          "seoSocial.socialNetwork",
+          "seoSocial.title",
+          "seoSocial.description",
+          "seoSocial.image"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::press.press",
+      "properties": {
+        "fields": [
+          "title",
+          "image",
+          "buttonLink",
+          "buttonText"
+        ],
+        "locales": [
+          "tr-TR",
+          "en"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::press.press",
+      "properties": {
+        "locales": [
+          "tr-TR",
+          "en"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::press.press",
+      "properties": {
+        "locales": [
+          "tr-TR",
+          "en"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::press.press",
+      "properties": {
+        "fields": [
+          "title",
+          "image",
+          "buttonLink",
+          "buttonText"
+        ],
+        "locales": [
+          "tr-TR",
+          "en"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::press.press",
+      "properties": {
+        "fields": [
+          "title",
+          "image",
+          "buttonLink",
+          "buttonText"
+        ],
+        "locales": [
+          "tr-TR",
+          "en"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::service.service",
+      "properties": {
+        "fields": [
+          "title",
+          "image",
+          "icon",
+          "serviceAboutTitle.titleBlock1",
+          "serviceAboutTitle.titleBlock2",
+          "serviceAboutText",
+          "serviceDetailTabs.tabTitle",
+          "serviceDetailTabs.content",
+          "serviceDetailTabs.tabID",
+          "serviceDetailTabs.titleBlock1",
+          "serviceDetailTabs.titleBlock2",
+          "serviceDetailBoxes.toptitle",
+          "serviceDetailBoxes.title",
+          "serviceDetailBoxes.text",
+          "mainTitle",
+          "slug"
+        ],
+        "locales": [
+          "tr-TR",
+          "en"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::service.service",
+      "properties": {
+        "locales": [
+          "tr-TR",
+          "en"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::service.service",
+      "properties": {
+        "locales": [
+          "tr-TR",
+          "en"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::service.service",
+      "properties": {
+        "fields": [
+          "title",
+          "image",
+          "icon",
+          "serviceAboutTitle.titleBlock1",
+          "serviceAboutTitle.titleBlock2",
+          "serviceAboutText",
+          "serviceDetailTabs.tabTitle",
+          "serviceDetailTabs.content",
+          "serviceDetailTabs.tabID",
+          "serviceDetailTabs.titleBlock1",
+          "serviceDetailTabs.titleBlock2",
+          "serviceDetailBoxes.toptitle",
+          "serviceDetailBoxes.title",
+          "serviceDetailBoxes.text",
+          "mainTitle",
+          "slug"
+        ],
+        "locales": [
+          "tr-TR",
+          "en"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::service.service",
+      "properties": {
+        "fields": [
+          "title",
+          "image",
+          "icon",
+          "serviceAboutTitle.titleBlock1",
+          "serviceAboutTitle.titleBlock2",
+          "serviceAboutText",
+          "serviceDetailTabs.tabTitle",
+          "serviceDetailTabs.content",
+          "serviceDetailTabs.tabID",
+          "serviceDetailTabs.titleBlock1",
+          "serviceDetailTabs.titleBlock2",
+          "serviceDetailBoxes.toptitle",
+          "serviceDetailBoxes.title",
+          "serviceDetailBoxes.text",
+          "mainTitle",
+          "slug"
+        ],
+        "locales": [
+          "tr-TR",
+          "en"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "api::solutions-content.solutions-content",
+      "properties": {
+        "fields": [
+          "toptitle",
+          "title",
+          "seo.metaTitle",
+          "seo.metaDescription",
+          "seo.metaImage",
+          "seo.metaSocial.socialNetwork",
+          "seo.metaSocial.title",
+          "seo.metaSocial.description",
+          "seo.metaSocial.image",
+          "seo.keywords",
+          "seo.metaRobots",
+          "seo.structuredData",
+          "seo.metaViewport",
+          "seo.canonicalURL",
+          "seoSocial.socialNetwork",
+          "seoSocial.title",
+          "seoSocial.description",
+          "seoSocial.image"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "api::solutions-content.solutions-content",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.publish",
+      "subject": "api::solutions-content.solutions-content",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "api::solutions-content.solutions-content",
+      "properties": {
+        "fields": [
+          "toptitle",
+          "title",
+          "seo.metaTitle",
+          "seo.metaDescription",
+          "seo.metaImage",
+          "seo.metaSocial.socialNetwork",
+          "seo.metaSocial.title",
+          "seo.metaSocial.description",
+          "seo.metaSocial.image",
+          "seo.keywords",
+          "seo.metaRobots",
+          "seo.structuredData",
+          "seo.metaViewport",
+          "seo.canonicalURL",
+          "seoSocial.socialNetwork",
+          "seoSocial.title",
+          "seoSocial.description",
+          "seoSocial.image"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "api::solutions-content.solutions-content",
+      "properties": {
+        "fields": [
+          "toptitle",
+          "title",
+          "seo.metaTitle",
+          "seo.metaDescription",
+          "seo.metaImage",
+          "seo.metaSocial.socialNetwork",
+          "seo.metaSocial.title",
+          "seo.metaSocial.description",
+          "seo.metaSocial.image",
+          "seo.keywords",
+          "seo.metaRobots",
+          "seo.structuredData",
+          "seo.metaViewport",
+          "seo.canonicalURL",
+          "seoSocial.socialNetwork",
+          "seoSocial.title",
+          "seoSocial.description",
+          "seoSocial.image"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "admin::api-tokens.access",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "admin::api-tokens.create",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "admin::api-tokens.delete",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "admin::api-tokens.read",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "admin::api-tokens.regenerate",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "admin::api-tokens.update",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "admin::marketplace.plugins.install",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "admin::marketplace.plugins.uninstall",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "admin::marketplace.read",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "admin::project-settings.read",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "admin::project-settings.update",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "admin::roles.create",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "admin::roles.delete",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "admin::roles.read",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "admin::roles.update",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "admin::users.create",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "admin::users.delete",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "admin::users.read",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "admin::users.update",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "admin::webhooks.create",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "admin::webhooks.delete",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "admin::webhooks.read",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "admin::webhooks.update",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::config-sync.menu-link",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::config-sync.settings.read",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.collection-types.configure-view",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.components.configure-layout",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "plugin::ezforms.recipient",
+      "properties": {
+        "fields": [
+          "name",
+          "email",
+          "number"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "plugin::ezforms.recipient",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "plugin::ezforms.recipient",
+      "properties": {
+        "fields": [
+          "name",
+          "email",
+          "number"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "plugin::ezforms.recipient",
+      "properties": {
+        "fields": [
+          "name",
+          "email",
+          "number"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "plugin::ezforms.submission",
+      "properties": {
+        "fields": [
+          "score",
+          "formName",
+          "data"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "plugin::ezforms.submission",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "plugin::ezforms.submission",
+      "properties": {
+        "fields": [
+          "score",
+          "formName",
+          "data"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "plugin::ezforms.submission",
+      "properties": {
+        "fields": [
+          "score",
+          "formName",
+          "data"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.create",
+      "subject": "plugin::users-permissions.user",
+      "properties": {
+        "fields": [
+          "username",
+          "email",
+          "provider",
+          "password",
+          "resetPasswordToken",
+          "confirmationToken",
+          "confirmed",
+          "blocked",
+          "role"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.delete",
+      "subject": "plugin::users-permissions.user",
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.read",
+      "subject": "plugin::users-permissions.user",
+      "properties": {
+        "fields": [
+          "username",
+          "email",
+          "provider",
+          "password",
+          "resetPasswordToken",
+          "confirmationToken",
+          "confirmed",
+          "blocked",
+          "role"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.explorer.update",
+      "subject": "plugin::users-permissions.user",
+      "properties": {
+        "fields": [
+          "username",
+          "email",
+          "provider",
+          "password",
+          "resetPasswordToken",
+          "confirmationToken",
+          "confirmed",
+          "blocked",
+          "role"
+        ]
+      },
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-manager.single-types.configure-view",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-type-builder.read",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::content-versioning.save",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::documentation.read",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::documentation.settings.read",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::documentation.settings.regenerate",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::documentation.settings.update",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::email.settings.read",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::i18n.locale.create",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::i18n.locale.delete",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::i18n.locale.read",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::i18n.locale.update",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::sitemap.menu-link",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::sitemap.settings.read",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::upload.assets.copy-link",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::upload.assets.create",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::upload.assets.download",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::upload.assets.update",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::upload.configure-view",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::upload.read",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::upload.settings.read",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::users-permissions.advanced-settings.read",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::users-permissions.advanced-settings.update",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::users-permissions.email-templates.read",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::users-permissions.email-templates.update",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::users-permissions.providers.read",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::users-permissions.providers.update",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::users-permissions.roles.create",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::users-permissions.roles.delete",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::users-permissions.roles.read",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    },
+    {
+      "action": "plugin::users-permissions.roles.update",
+      "subject": null,
+      "properties": {},
+      "conditions": []
+    }
+  ]
+}

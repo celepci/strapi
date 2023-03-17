@@ -1,0 +1,78 @@
+{
+  "key": "plugin_content_manager_configuration_components::title.title",
+  "value": {
+    "uid": "title.title",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "titleBlock1",
+      "defaultSortBy": "titleBlock1",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "titleBlock1": {
+        "edit": {
+          "label": "Başlık - Block 1 ",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "titleBlock1",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "titleBlock2": {
+        "edit": {
+          "label": "Başlık - Block 2",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "titleBlock2",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "list": [
+        "id",
+        "titleBlock1",
+        "titleBlock2"
+      ],
+      "edit": [
+        [
+          {
+            "name": "titleBlock1",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "titleBlock2",
+            "size": 12
+          }
+        ]
+      ]
+    },
+    "isComponent": true
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}

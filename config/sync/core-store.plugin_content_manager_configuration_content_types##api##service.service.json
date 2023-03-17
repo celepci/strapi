@@ -1,0 +1,244 @@
+{
+  "key": "plugin_content_manager_configuration_content_types::api::service.service",
+  "value": {
+    "uid": "api::service.service",
+    "settings": {
+      "bulkable": true,
+      "filterable": true,
+      "searchable": true,
+      "pageSize": 10,
+      "mainField": "id",
+      "defaultSortBy": "id",
+      "defaultSortOrder": "ASC"
+    },
+    "metadatas": {
+      "id": {
+        "edit": {},
+        "list": {
+          "label": "id",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "title": {
+        "edit": {
+          "label": "Çözüm Başlık",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "title",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "image": {
+        "edit": {
+          "label": "Çözüm Ana Görsel",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "image",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "icon": {
+        "edit": {
+          "label": "Çözüm İcon",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "icon",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "serviceAboutTitle": {
+        "edit": {
+          "label": "Çözüm Hakkında Başlık",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "serviceAboutTitle",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "serviceAboutText": {
+        "edit": {
+          "label": "Çözüm Hakkında İçerik",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "serviceAboutText",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "serviceDetailTabs": {
+        "edit": {
+          "label": "Çözüm Detay Tab",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "serviceDetailTabs",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "serviceDetailBoxes": {
+        "edit": {
+          "label": "Service Detay Alt İçerik ",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "serviceDetailBoxes",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "mainTitle": {
+        "edit": {
+          "label": "Çözüm Detay Başlık",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "mainTitle",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "slug": {
+        "edit": {
+          "label": "slug",
+          "description": "Otomatik oluşturulur",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "slug",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "createdAt": {
+        "edit": {
+          "label": "createdAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "createdAt",
+          "searchable": true,
+          "sortable": true
+        }
+      },
+      "updatedAt": {
+        "edit": {
+          "label": "updatedAt",
+          "description": "",
+          "placeholder": "",
+          "visible": false,
+          "editable": true
+        },
+        "list": {
+          "label": "updatedAt",
+          "searchable": true,
+          "sortable": true
+        }
+      }
+    },
+    "layouts": {
+      "edit": [
+        [
+          {
+            "name": "title",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "slug",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "mainTitle",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "image",
+            "size": 6
+          },
+          {
+            "name": "icon",
+            "size": 6
+          }
+        ],
+        [
+          {
+            "name": "serviceAboutTitle",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "serviceAboutText",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "serviceDetailTabs",
+            "size": 12
+          }
+        ],
+        [
+          {
+            "name": "serviceDetailBoxes",
+            "size": 12
+          }
+        ]
+      ],
+      "list": [
+        "id",
+        "image",
+        "title",
+        "slug"
+      ]
+    }
+  },
+  "type": "object",
+  "environment": null,
+  "tag": null
+}
