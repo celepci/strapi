@@ -22,8 +22,8 @@
       },
       "iconName": {
         "edit": {
-          "label": "iconName",
-          "description": "",
+          "label": "Sosyal Medya İkonu Adı",
+          "description": "instagram-linkedin-twitter-facebook-youtube",
           "placeholder": "",
           "visible": true,
           "editable": true
@@ -36,7 +36,7 @@
       },
       "link": {
         "edit": {
-          "label": "link",
+          "label": "Link",
           "description": "",
           "placeholder": "",
           "visible": true,
@@ -50,7 +50,7 @@
       },
       "targetBlank": {
         "edit": {
-          "label": "targetBlank",
+          "label": "Yeni Sekmede Açılsın",
           "description": "",
           "placeholder": "",
           "visible": true,

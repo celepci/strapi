@@ -3191,6 +3191,22 @@
             }
           }
         },
+        "footerMobileLogo": {
+          "type": "media",
+          "multiple": false,
+          "required": false,
+          "allowedTypes": [
+            "images",
+            "files",
+            "videos",
+            "audios"
+          ],
+          "pluginOptions": {
+            "i18n": {
+              "localized": true
+            }
+          }
+        },
         "createdAt": {
           "type": "datetime"
         },
@@ -3319,6 +3335,22 @@
             "pluginOptions": {
               "i18n": {
                 "localized": false
+              }
+            }
+          },
+          "footerMobileLogo": {
+            "type": "media",
+            "multiple": false,
+            "required": false,
+            "allowedTypes": [
+              "images",
+              "files",
+              "videos",
+              "audios"
+            ],
+            "pluginOptions": {
+              "i18n": {
+                "localized": true
               }
             }
           }

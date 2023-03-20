@@ -337,7 +337,8 @@
           "socialMedia.iconName",
           "socialMedia.link",
           "socialMedia.targetBlank",
-          "logoBlack"
+          "logoBlack",
+          "footerMobileLogo"
         ],
         "locales": [
           "tr-TR",
@@ -379,7 +380,8 @@
           "socialMedia.iconName",
           "socialMedia.link",
           "socialMedia.targetBlank",
-          "logoBlack"
+          "logoBlack",
+          "footerMobileLogo"
         ],
         "locales": [
           "tr-TR",
@@ -399,7 +401,8 @@
           "socialMedia.iconName",
           "socialMedia.link",
           "socialMedia.targetBlank",
-          "logoBlack"
+          "logoBlack",
+          "footerMobileLogo"
         ],
         "locales": [
           "tr-TR",

@@ -22,7 +22,7 @@
       },
       "copyrightText": {
         "edit": {
-          "label": "copyrightText",
+          "label": "Footer Copyright Yazısı",
           "description": "",
           "placeholder": "",
           "visible": true,
@@ -36,7 +36,7 @@
       },
       "headerLogo": {
         "edit": {
-          "label": "headerLogo",
+          "label": "Header Logo ",
           "description": "",
           "placeholder": "",
           "visible": true,
@@ -50,7 +50,7 @@
       },
       "footerLogo": {
         "edit": {
-          "label": "footerLogo",
+          "label": "Footer Logo",
           "description": "",
           "placeholder": "",
           "visible": true,
@@ -64,7 +64,7 @@
       },
       "socialMedia": {
         "edit": {
-          "label": "socialMedia",
+          "label": "Sosyal Medya",
           "description": "",
           "placeholder": "",
           "visible": true,
@@ -78,14 +78,28 @@
       },
       "logoBlack": {
         "edit": {
-          "label": "logoBlack",
-          "description": "",
+          "label": "Logo Koyu Versiyon",
+          "description": "Beyaz arkaplanlar için logonun koyu versiyonu",
           "placeholder": "",
           "visible": true,
           "editable": true
         },
         "list": {
           "label": "logoBlack",
+          "searchable": false,
+          "sortable": false
+        }
+      },
+      "footerMobileLogo": {
+        "edit": {
+          "label": "Footer Logo Mobil",
+          "description": "",
+          "placeholder": "",
+          "visible": true,
+          "editable": true
+        },
+        "list": {
+          "label": "footerMobileLogo",
           "searchable": false,
           "sortable": false
         }
@@ -140,6 +154,10 @@
         [
           {
             "name": "footerLogo",
+            "size": 6
+          },
+          {
+            "name": "footerMobileLogo",
             "size": 6
           }
         ],
